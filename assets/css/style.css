@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contact-input {
+    width: 300px;
+    color: #ffffff;
+    background-color: #333333;
+    border: 1px solid #444444;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #00a652;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008a43;
+}
+
+.validation-message {
+    color: #ff6b6b; 
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.contact-list {
+    margin-top: 20px;
+}
+
+.contact-card {
+    background-color: #333333;
+    border: 1px solid #444444;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: left;
+}
+
+.contact-card.recent {
+    border-color: #00a652;
+}
+
+.contact-card:hover {
+    border-color: #b22222;
+    cursor: pointer;
+}
+
+.contact-count {
+    color: #00a652;
+    font-size: 14px;
+    margin-top: 10px;
+}
